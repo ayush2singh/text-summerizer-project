@@ -7,7 +7,7 @@ class PredictionPipeline:
     def __init__(self):
         # 1. Point directly to your fine-tuned model on Hugging Face Hub
         # Swap 'your-username/pegasus-samsum-summarizer' with your actual HF repo ID
-        self.model_id = "your-username/pegasus-samsum-summarizer"
+        self.model_id = "aayush312/pegasus-samsum-summarizer"
         
         print(f"Loading model '{self.model_id}' into memory...")
         
